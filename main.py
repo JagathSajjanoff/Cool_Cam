@@ -18,4 +18,4 @@ while cam.isOpened():
         cv2.rectangle(frame1, (x, y), (x+w, y+h), (0, 255, 0), 2)
     if cv2.waitKey(10) == ord('d'):
         break
-    cv2.imshow('Cool Cam',  frame1)
+    cv2.imshow('Motion Cam',  frame1)
